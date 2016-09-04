@@ -1,0 +1,36 @@
+Just run API.py it already contain a trained model
+
+# A model for Gender Predictor 
+Predict the gender of a given name
+
+Requirements:
+* python >2.7
+* numpy
+* keras
+* h5py
+
+
+
+data set download from
+
+https://www.cs.cmu.edu/Groups/AI/areas/nlp/corpora/names/
+
+and some more data is taken, from that data i am using only names for increasing the accuracy
+
+
+## Training :
+
+To train the model:
+
+'python3 training.py'
+
+Training will take time 
+
+
+## Testing :
+
+Command to test the result results: run the API.py and enter name
+
+`python3 API.py` 
+
+After Running this command just enter name and model will give you the gender of that name
